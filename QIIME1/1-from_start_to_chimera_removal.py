@@ -2,7 +2,7 @@ import os
 from subprocess import call
 from shutil import copy, rmtree
 from os.path import join
-input_folder = "/mnt/data/"
+input_folder = "" # The base folder
 data_folder = join(input_folder, "fastq")
 copy_folder = join(input_folder, "copy")
 output_parent = join(input_folder, "result")
