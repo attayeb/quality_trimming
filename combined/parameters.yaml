@@ -1,0 +1,10 @@
+database: database.fasta
+reference_database_name: silva
+primer1: "CCTACGGGNGGCWGCAG"
+primer2: "GACTACHVGGGTATCTAATCC"
+template_samples_folder: "fastq/"
+t_values: [0, 2, 4, 8]
+p_values: [4, 8, 12]
+number_of_samples: 2
+name_of_samples: "sample"
+out_put_folder: "result/"
